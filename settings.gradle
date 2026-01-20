@@ -1,0 +1,3 @@
+rootProject.name='VideoMaker'
+include ':nativetemplates'
+include ':app'

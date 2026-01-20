@@ -1,0 +1,25 @@
+<LinearLayout android:id="@+id/lay_ads"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:id="@+id/ll_fbbanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f4f8fe"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:visibility="visible">
+
+        <ProgressBar
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_horizontal" />
+    </FrameLayout>
+
+    <!--<include layout="@layout/item_banner_ads"/>-->
+
+</LinearLayout>

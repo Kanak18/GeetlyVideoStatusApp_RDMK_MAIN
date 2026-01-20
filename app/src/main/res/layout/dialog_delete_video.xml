@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#55000000"
+    android:tag="layout/dialog_download_file_0">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30.0dip"
+        android:layout_marginRight="30.0dip"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="0.100000024dip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10.0dip"
+                android:fontFamily="@font/quicksand"
+                android:gravity="center"
+                android:text="Delete Video ?"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20.0dip"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:layout_marginEnd="20.0dip"
+                    android:layout_marginBottom="20.0dip"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/tvDownloading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10.0dip"
+                        android:fontFamily="@font/quicksand"
+                        android:text="Do you want delete this video ?"
+                        android:textAlignment="center"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1"
+                    android:visibility="visible">
+
+                    <Button
+                        android:id="@+id/btnNo"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="0.0dip"
+                        android:layout_marginBottom="15.0dip"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/rounded_bg_btn"
+                        android:fontFamily="sans-serif-condensed-medium"
+
+                        android:gravity="clip_horizontal|center|center_horizontal"
+                        android:padding="@dimen/_12sdp"
+                        android:text="NO"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@color/white"
+                        tools:ignore="TextContrastCheck" />
+
+                    <Button
+                        android:id="@+id/btnYes"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="@dimen/_120sdp"
+                        android:layout_marginTop="0.0dip"
+                        android:layout_marginRight="50dp"
+                        android:layout_marginBottom="15.0dip"
+                        android:layout_weight="0.5"
+                        android:background="@drawable/rounded_bg_btn"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:gravity="center"
+                        android:padding="@dimen/_12sdp"
+                        android:text="YES"
+                        android:textAppearance="?android:textAppearanceMedium"
+                        android:textColor="@color/white"
+                        tools:ignore="TextContrastCheck" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <FrameLayout
+                android:id="@+id/frame_ad_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffdddddd">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="270.0dip"
+                    android:fontFamily="@font/quicksand"
+                    android:gravity="center"
+                    android:text="Ad"
+                    android:textAppearance="?android:textAppearanceSmall"
+                    android:textColor="@color/black30" />
+
+                <FrameLayout
+                    android:id="@+id/fl_adplaceholder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8.0dip" />
+            </FrameLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

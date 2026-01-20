@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "217206256023",
+    "project_id": "lyricalvideostatus-28e63",
+    "storage_bucket": "lyricalvideostatus-28e63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217206256023:android:c972c4bf7499ec3f0cd4d2",
+        "android_client_info": {
+          "package_name": "geetly.lyrical.videostatusmaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "217206256023-mc568duqqstsar4g9lgn5ep6u08inm5v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6hM1cNyEpSKtOjFRoGACvt1RphAUkO7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "217206256023-mc568duqqstsar4g9lgn5ep6u08inm5v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

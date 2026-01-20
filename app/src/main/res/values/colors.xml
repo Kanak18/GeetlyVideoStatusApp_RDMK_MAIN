@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorExpButton">#f20056</color>
+
+    <color name="colorAccent">#cc3366</color>
+    <color name="colorPrimary">#339966</color>
+    <color name="colorPrimary1">#66cc66</color>
+    <color name="colorPrimaryDark">#339966</color>
+    <color name="lighttheme_color">#6D60A1</color>
+    <color name="background_progress_color">#6c6d6d</color>
+    <color name="background_video_color">#2f3031</color>
+    <color name="black">#000000</color>
+    <color name="black_translucent">#50000000</color>
+    <color name="colorGray">#ffeeeeee</color>
+    <color name="gray_light">#e5e5e5</color>
+    <color name="grey_200">#eeeeee</color>
+    <color name="grey_400">#bdbdbd</color>
+    <color name="grey_500">#9e9e9e</color>
+    <color name="line_button">#565758</color>
+    <color name="line_color">#ff15ff00</color>
+    <color name="progress_color">#FF3A3A</color>
+    <color name="shadow_color">#ff000000</color>
+    <color name="transprent">#50000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black30">#4A070707</color>
+    <color name="white30">#F1F1F1</color>
+    <color name="transparent_black_60">#23000000</color>
+    <color name="icon_nf">#f20056</color>
+
+
+    <color name="statusbar">#E65100</color>
+    <color name="textView_dialog_update">#000000</color>
+    <color name="button_bg">#5387ED</color>
+    <color name="progressbar_style">#5387ED</color>
+</resources>
